@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(223, 222, 221);
+}
+
+main{
+    display: block;
+    
+    align-items: center;
+    padding: 10vh;
+}
+
+h1{
+    font-size: 4rem;
+    color: green;
+    align-items: center;
+}
