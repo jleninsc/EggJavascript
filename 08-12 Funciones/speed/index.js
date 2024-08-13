@@ -1,8 +1,11 @@
-function calcularVelocidad(distancia, tiempo) {
-  const velocidad = distancia / tiempo;
-  console.log("La velocidad del movil es " + velocidad);
-}
+const calcularVelocidad = (distancia, tiempo) => {
+  return distancia / tiempo;
+};
 
-calcularVelocidad(10,2);
-calcularVelocidad(100,2);
-calcularVelocidad(75,3);
+const velocidad1 = calcularVelocidad(10,2);
+const velocidad2 = calcularVelocidad(30,3);
+const velocidad3 = calcularVelocidad(48,2);
+console.log("La velocidad de Juana es " + velocidad1);
+console.log("La velocidad de Pedro es " + velocidad2);
+console.log("La velocidad de Maria es " + velocidad3);
+
